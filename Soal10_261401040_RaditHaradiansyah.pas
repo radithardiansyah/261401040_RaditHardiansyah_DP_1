@@ -1,0 +1,18 @@
+program Soal10;
+var
+  h: integer;
+begin
+  write('Input: '); readln(h);
+  write('Output: ');
+  
+  case h of
+    1: writeln('"Hari Senin"');
+    2: writeln('"Hari Selasa"');
+    3: writeln('"Hari Rabu"');
+    4: writeln('"Hari Kamis"');
+    5: writeln('"Hari Jumat"');
+    6: writeln('"Hari Sabtu"');
+    7: writeln('"Hari Minggu"');
+    else writeln('"Input salah"');
+  end;
+end.
